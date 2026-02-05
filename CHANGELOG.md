@@ -1,3 +1,15 @@
+# 1.0.0 (2026-02-05)
+
+
+### Bug Fixes
+
+* Add semantic-release configuration for GitHub Packages publishing ([7164ce7](https://github.com/asachs01/node-atera/commit/7164ce767761888ca8ece2ebc316c97854933c02))
+
+
+### Features
+
+* Initial implementation of node-atera TypeScript library ([bcc14db](https://github.com/asachs01/node-atera/commit/bcc14db42eac831e081f34673eb3b74e85e9b9e9))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
