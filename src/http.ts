@@ -130,7 +130,7 @@ export class HttpClient {
     }
 
     switch (response.status) {
-      case 400:
+      case 400: {
         // Parse validation errors if available
         const errors = this.parseValidationErrors(responseBody);
         throw new AteraValidationError(
@@ -138,6 +138,7 @@ export class HttpClient {
           errors,
           responseBody
         );
+      }
 
       case 401:
         throw new AteraAuthenticationError(
